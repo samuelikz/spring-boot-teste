@@ -1,0 +1,134 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f2f6;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: seagreen;
+    height: 80px;
+}
+
+footer{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: seagreen;
+}
+
+footer {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h4 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer p, li {
+  font-size: 16px;
+}
+
+
+.title{
+    color: whitesmoke;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 10px;
+}
+
+.item{
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+
+    max-width: 318px;
+    max-height: 350px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 15px;
+    
+}
+
+img{
+    display: block;
+    margin: 15px auto;
+    height: 120px;
+    max-width: 100%;
+}
+
+.item-name{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.item-cost{
+    font-size: 20px;
+    color: #24c486;
+    font-weight: 500;
+}
+
+.item-controls{
+    padding: 16px;
+}
+
+.item-buy{
+    background: #FA8900;
+    cursor: pointer;
+    padding: 6px 16px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.item-desc{
+    font-size: 0.8rem;
+    padding: 6px 8px;
+}
+
+.item-add{
+    font-size: 0.8rem;
+    justify-items: center;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 3px;
+    border: 1px solid #e3a017;
+    background: #F7CA00;
+    width: 32px;
+}
+
+.item-info span{
+    color: #FA8900;
+    font-size: 0.8rem;
+}
